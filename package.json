@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "serve -s out -l 3000"
+    "start": "serve -s out -l 3000",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "next": "14.2.5",
@@ -20,6 +21,7 @@
     "serve": "14.2.1",
     "@types/react": "^18.3.0",
     "@types/react-dom": "^18.3.0",
-    "@types/node": "^20.0.0"
+    "@types/node": "^20.0.0",
+    "prettier": "^3.3.3"
   }
 }
