@@ -1,0 +1,26 @@
+{
+  "id": "lavender-bomb-120",
+  "name": "Lavender Serenity Bath Bomb",
+  "slug": "lavender-serenity-bath-bomb",
+  "priceZAR": 49,
+  "category": "bath-bomb",
+  "size": "120 g",
+  "badges": [
+    "vegan",
+    "handcrafted"
+  ],
+  "scentNotes": [
+    "lavender",
+    "vanilla"
+  ],
+  "tags": [
+    "relaxing",
+    "floral",
+    "bath-bomb"
+  ],
+  "images": [
+    "/images/products/placeholder.svg"
+  ],
+  "description": "A calming lavender bath bomb with gentle vanilla undertones for spa-like evenings.",
+  "whatsappSku": "SB-LAV-120"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "rose-petals-bomb-120",
+  "name": "Rose Petals Bath Bomb",
+  "slug": "rose-petals-bath-bomb",
+  "priceZAR": 55,
+  "category": "bath-bomb",
+  "size": "120 g",
+  "badges": [
+    "vegan",
+    "handcrafted",
+    "floral"
+  ],
+  "scentNotes": [
+    "rose",
+    "geranium"
+  ],
+  "tags": [
+    "romantic",
+    "floral",
+    "bath-bomb"
+  ],
+  "images": [
+    "/images/products/placeholder.svg"
+  ],
+  "description": "Soft floral fragrance with real rose notes for a gentle, romantic bath.",
+  "whatsappSku": "SB-ROS-120"
+}

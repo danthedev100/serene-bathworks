@@ -1,0 +1,27 @@
+{
+  "id": "citrus-sunshine-salt-500",
+  "name": "Citrus Sunshine Salt Soak 500g",
+  "slug": "citrus-sunshine-salt-soak-500g",
+  "priceZAR": 89,
+  "category": "bath-salt",
+  "size": "500 g",
+  "badges": [
+    "handcrafted",
+    "bright"
+  ],
+  "scentNotes": [
+    "orange",
+    "lemon",
+    "grapefruit"
+  ],
+  "tags": [
+    "uplifting",
+    "citrus",
+    "bath-salt"
+  ],
+  "images": [
+    "/images/products/placeholder.svg"
+  ],
+  "description": "Zesty citrus blend to lift your mood and re-energise your evening ritual.",
+  "whatsappSku": "SB-CIT-500"
+}
