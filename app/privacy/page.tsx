@@ -1,1 +1,15 @@
-export const metadata={title:'Privacy Policy — Serene Bathworks'};export default function PrivacyPage(){return(<section className='section'><div className='container prose max-w-none'><h1>Privacy Policy</h1><p>We collect only what you share via the contact form or WhatsApp links. Messages are delivered to our inbox and not stored on this site. For POPIA requests, contact us to remove your data.</p></div></section>)}
+export const metadata = { title: 'Privacy Policy — Serene Bathworks' };
+export default function PrivacyPage() {
+  return (
+    <section className="section">
+      <div className="container prose max-w-none">
+        <h1>Privacy Policy</h1>
+        <p>
+          We collect only what you share via the contact form or WhatsApp links. Messages are
+          delivered to our inbox and not stored on this site. For POPIA requests, contact us to
+          remove your data.
+        </p>
+      </div>
+    </section>
+  );
+}

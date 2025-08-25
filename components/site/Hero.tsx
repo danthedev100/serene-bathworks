@@ -1,1 +1,27 @@
-import Link from 'next/link';export default function Hero(){return(<section className='relative section'><div className='container grid md:grid-cols-2 gap-8 items-center'><div className='order-2 md:order-1'><h1 className='text-4xl md:text-5xl font-bold tracking-tight'>Transform Your Bath Into a Sanctuary.</h1><p className='mt-4 text-neutraldark/80'>Natural, small‑batch bath bombs and mineral‑rich salts, handcrafted in Cape Town.</p><Link href='/shop' className='btn-primary mt-6 inline-block'>Shop Best Sellers</Link></div><div className='order-1 md:order-2'><img src='/images/hero-placeholder.svg' alt='A serene, sunlit bath with natural bath salts and lavender sprigs.' className='rounded-2xl shadow-sm w-full h-auto'/></div></div></section>)}
+import Link from 'next/link';
+export default function Hero() {
+  return (
+    <section className="relative section">
+      <div className="container grid md:grid-cols-2 gap-8 items-center">
+        <div className="order-2 md:order-1">
+          <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
+            Transform Your Bath Into a Sanctuary.
+          </h1>
+          <p className="mt-4 text-neutraldark/80">
+            Natural, small‑batch bath bombs and mineral‑rich salts, handcrafted in Cape Town.
+          </p>
+          <Link href="/shop" className="btn-primary mt-6 inline-block">
+            Shop Best Sellers
+          </Link>
+        </div>
+        <div className="order-1 md:order-2">
+          <img
+            src="/images/hero-placeholder.svg"
+            alt="A serene, sunlit bath with natural bath salts and lavender sprigs."
+            className="rounded-2xl shadow-sm w-full h-auto"
+          />
+        </div>
+      </div>
+    </section>
+  );
+}

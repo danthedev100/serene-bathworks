@@ -1,1 +1,26 @@
-export const metadata={title:'Ingredients — Serene Bathworks'};const items=[{name:'Lavender',desc:'Calming aroma for evening wind-downs'},{name:'Epsom Salt',desc:'Magnesium-rich soak to ease tired muscles'},{name:'Dead Sea Salt',desc:'Mineral boost for skin feel'},{name:'Kaolin Clay',desc:'Gentle cleanse and silky water feel'},{name:'Sweet Almond Oil',desc:'Light moisturisation without residue'},{name:'Bergamot Oil',desc:'Uplifting citrus notes'},];export default function IngredientsPage(){return(<section className='section'><div className='container'><h1 className='text-3xl font-semibold mb-6'>Ingredients</h1><div className='grid sm:grid-cols-2 md:grid-cols-3 gap-6'>{items.map(i=>(<div key={i.name} className='card p-5'><div className='text-xl font-semibold'>{i.name}</div><div className='mt-2 text-neutraldark/80'>{i.desc}</div></div>))}</div></div></section>)}
+export const metadata = { title: 'Ingredients — Serene Bathworks' };
+const items = [
+  { name: 'Lavender', desc: 'Calming aroma for evening wind-downs' },
+  { name: 'Epsom Salt', desc: 'Magnesium-rich soak to ease tired muscles' },
+  { name: 'Dead Sea Salt', desc: 'Mineral boost for skin feel' },
+  { name: 'Kaolin Clay', desc: 'Gentle cleanse and silky water feel' },
+  { name: 'Sweet Almond Oil', desc: 'Light moisturisation without residue' },
+  { name: 'Bergamot Oil', desc: 'Uplifting citrus notes' },
+];
+export default function IngredientsPage() {
+  return (
+    <section className="section">
+      <div className="container">
+        <h1 className="text-3xl font-semibold mb-6">Ingredients</h1>
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+          {items.map((i) => (
+            <div key={i.name} className="card p-5">
+              <div className="text-xl font-semibold">{i.name}</div>
+              <div className="mt-2 text-neutraldark/80">{i.desc}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

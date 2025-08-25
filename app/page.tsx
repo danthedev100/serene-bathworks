@@ -1,1 +1,21 @@
-import Hero from '@/components/site/Hero';import {getAllProducts} from '@/lib/products';import ProductCard from '@/components/site/ProductCard';export default function HomePage(){const products=getAllProducts().slice(0,6);return(<div><Hero/><section className='section bg-neutrallight'><div className='container'><h2 className='text-2xl font-semibold mb-6'>Best Sellers</h2><div className='grid sm:grid-cols-2 md:grid-cols-3 gap-6'>{products.map(p=><ProductCard key={p.id} product={p}/>)}</div></div></section></div>)}
+import Hero from '@/components/site/Hero';
+import { getAllProducts } from '@/lib/products';
+import ProductCard from '@/components/site/ProductCard';
+export default function HomePage() {
+  const products = getAllProducts().slice(0, 6);
+  return (
+    <div>
+      <Hero />
+      <section className="section bg-neutrallight">
+        <div className="container">
+          <h2 className="text-2xl font-semibold mb-6">Best Sellers</h2>
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+            {products.map((p) => (
+              <ProductCard key={p.id} product={p} />
+            ))}
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}

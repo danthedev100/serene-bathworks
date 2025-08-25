@@ -5,23 +5,10 @@
   "priceZAR": 55,
   "category": "bath-bomb",
   "size": "120 g",
-  "badges": [
-    "vegan",
-    "handcrafted",
-    "fresh"
-  ],
-  "scentNotes": [
-    "eucalyptus",
-    "peppermint"
-  ],
-  "tags": [
-    "refreshing",
-    "energising",
-    "bath-bomb"
-  ],
-  "images": [
-    "/images/products/placeholder.svg"
-  ],
+  "badges": ["vegan", "handcrafted", "fresh"],
+  "scentNotes": ["eucalyptus", "peppermint"],
+  "tags": ["refreshing", "energising", "bath-bomb"],
+  "images": ["/images/products/placeholder.svg"],
   "description": "An invigorating fizz with eucalyptus and peppermint for a clear, cooling soak.",
   "whatsappSku": "SB-EUC-120"
 }

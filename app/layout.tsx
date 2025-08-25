@@ -1,1 +1,24 @@
-import './globals.css';import Navbar from '@/components/site/Navbar';import Footer from '@/components/site/Footer';import type { Metadata } from 'next';export const metadata:Metadata={title:'Serene Bathworks',description:'Natural, small‑batch bath bombs and mineral‑rich salts, handcrafted in Cape Town.',openGraph:{title:'Serene Bathworks',description:'Handcrafted bath bombs & salts from Cape Town.',type:'website'}};export default function RootLayout({children}:{children:React.ReactNode}){return(<html lang='en'><body><Navbar/><main>{children}</main><Footer/></body></html>)}
+import './globals.css';
+import Navbar from '@/components/site/Navbar';
+import Footer from '@/components/site/Footer';
+import type { Metadata } from 'next';
+export const metadata: Metadata = {
+  title: 'Serene Bathworks',
+  description: 'Natural, small‑batch bath bombs and mineral‑rich salts, handcrafted in Cape Town.',
+  openGraph: {
+    title: 'Serene Bathworks',
+    description: 'Handcrafted bath bombs & salts from Cape Town.',
+    type: 'website',
+  },
+};
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <body>
+        <Navbar />
+        <main>{children}</main>
+        <Footer />
+      </body>
+    </html>
+  );
+}
