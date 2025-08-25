@@ -17,7 +17,7 @@ export default function Hero() {
         <div className="order-1 md:order-2">
           <img
             src="/images/hero.jpg"
-            alt="A serene, sunlit bath with natural bath salts and lavender sprigs."
+            alt="Bath bombs, mineral salts, and eucalyptus arranged on a calm neutral backdrop."
             className="rounded-2xl shadow-sm w-full h-auto"
           />
         </div>
