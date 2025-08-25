@@ -14,8 +14,9 @@ export default function Navbar() {
   return (
     <header className="border-b border-black/5 bg-white/80 backdrop-blur">
       <div className="container flex items-center justify-between py-4">
-        <Link href="/" className="font-semibold tracking-tight text-xl">
-          Serene Bathworks
+        <Link href="/" className="flex items-center gap-3">
+          <img src="/images/brand/serene-nature.svg" alt="Serene Bathworks logo" className="h-7 w-auto" />
+          <span className="font-semibold tracking-tight text-xl text-neutraldark">Serene Bathworks</span>
         </Link>
         <nav className="hidden md:flex gap-6">
           {NAV.map((item) => (

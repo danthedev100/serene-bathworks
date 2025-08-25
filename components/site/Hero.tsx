@@ -16,7 +16,7 @@ export default function Hero() {
         </div>
         <div className="order-1 md:order-2">
           <img
-            src="/images/hero-placeholder.svg"
+            src="/images/hero.jpg"
             alt="A serene, sunlit bath with natural bath salts and lavender sprigs."
             className="rounded-2xl shadow-sm w-full h-auto"
           />
