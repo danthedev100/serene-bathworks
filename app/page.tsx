@@ -1,5 +1,5 @@
 import Hero from '@/components/site/Hero';
-import { getAllProducts } from '@/lib/products';
+import { getAllProducts } from '@/lib/products.server';
 import ProductCard from '@/components/site/ProductCard';
 export default function HomePage() {
   const products = getAllProducts().slice(0, 6);

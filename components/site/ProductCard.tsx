@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Card, CardBody } from '../ui/Card';
-import type { Product } from '@/lib/products';
-import { getWhatsAppLink } from '@/lib/products';
+import type { Product } from '@/lib/product-types';
+import { getWhatsAppLink } from '@/lib/whatsapp';
 export default function ProductCard({ product }: { product: Product }) {
   const img = product.images[0] || '/images/products/placeholder.svg';
   return (

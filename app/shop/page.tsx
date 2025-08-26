@@ -1,4 +1,4 @@
-import { getAllProducts } from '@/lib/products';
+import { getAllProducts } from '@/lib/products.server';
 import ShopClient from '@/components/shop/ShopClient';
 
 export const metadata = { title: 'Shop — Serene Bathworks' };
