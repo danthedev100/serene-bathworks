@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import type { Product } from '@/lib/products';
+import type { Product } from '@/lib/product-types';
 import ProductCard from '@/components/site/ProductCard';
 
 type Props = { products: Product[] };
