@@ -1,4 +1,5 @@
-import { getAllProducts, getProductBySlug, getWhatsAppLink } from '@/lib/products';
+import { getAllProducts, getProductBySlug } from '@/lib/products.server';
+import { getWhatsAppLink } from '@/lib/whatsapp';
 import { notFound } from 'next/navigation';
 export const dynamic = 'error';
 export async function generateStaticParams() {
