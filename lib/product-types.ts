@@ -3,7 +3,7 @@ export type Product = {
   name: string;
   slug: string;
   priceZAR: number;
-  category: 'bath-bomb' | 'bath-salt';
+  category: 'bath-bomb' | 'bath-salt'| 'shower-steamer';
   size: string;
   badges: string[];
   scentNotes: string[];
