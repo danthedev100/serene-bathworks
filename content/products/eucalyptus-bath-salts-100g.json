@@ -1,0 +1,27 @@
+{
+  "id": "3006",
+  "name": "Eucalyptus Bath Salt",
+  "slug": "eucalyptus-bath-salts-100g",
+  "priceZAR": 0,
+  "category": "bath-bomb",
+  "size": "100g",
+  "scentNotes": [
+    "Fresh",
+    "minty",
+    "invigorating"
+  ],
+  "tags": [
+    "eucalyptus",
+    "natural",
+    "spa",
+    "relaxation",
+    "refreshing"
+  ],
+  "images": [
+    "https://serene-bathworks.com/images/bath-salts-eucalyptus.jpg"
+  ],
+  "description": "Immerse yourself in the soothing experience of our handcrafted eucalyptus bath salt. Scent notes: Fresh, minty, invigorating. (100g)",
+  "whatsappSku": "3006",
+  "stock": 10,
+  "active": true
+}

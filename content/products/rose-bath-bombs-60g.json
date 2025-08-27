@@ -1,0 +1,27 @@
+{
+  "id": "3013",
+  "name": "Rose Bath Bomb",
+  "slug": "rose-bath-bombs-60g",
+  "priceZAR": 0,
+  "category": "bath-bomb",
+  "size": "60g",
+  "scentNotes": [
+    "Floral",
+    "romantic",
+    "soft"
+  ],
+  "tags": [
+    "rose",
+    "natural",
+    "spa",
+    "relaxation",
+    "floral"
+  ],
+  "images": [
+    "https://serene-bathworks.com/images/bath-bombs-rose.jpg"
+  ],
+  "description": "Immerse yourself in the soothing experience of our handcrafted rose bath bomb. Scent notes: Floral, romantic, soft. (60g)",
+  "whatsappSku": "3013",
+  "stock": 10,
+  "active": true
+}

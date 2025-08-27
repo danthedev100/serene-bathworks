@@ -1,0 +1,27 @@
+{
+  "id": "3000",
+  "name": "Rosemary Bath Salt",
+  "slug": "rosemary-bath-salts-100g",
+  "priceZAR": 0,
+  "category": "bath-bomb",
+  "size": "100g",
+  "scentNotes": [
+    "Herbaceous",
+    "woody",
+    "crisp"
+  ],
+  "tags": [
+    "rosemary",
+    "natural",
+    "spa",
+    "relaxation",
+    "herbal"
+  ],
+  "images": [
+    "https://serene-bathworks.com/images/bath-salts-rosemary.jpg"
+  ],
+  "description": "Immerse yourself in the soothing experience of our handcrafted rosemary bath salt. Scent notes: Herbaceous, woody, crisp. (100g)",
+  "whatsappSku": "3000",
+  "stock": 10,
+  "active": true
+}

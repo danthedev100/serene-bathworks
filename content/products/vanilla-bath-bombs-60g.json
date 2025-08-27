@@ -1,0 +1,27 @@
+{
+  "id": "3014",
+  "name": "Vanilla Bath Bomb",
+  "slug": "vanilla-bath-bombs-60g",
+  "priceZAR": 0,
+  "category": "bath-bomb",
+  "size": "60g",
+  "scentNotes": [
+    "Sweet",
+    "warm",
+    "comforting"
+  ],
+  "tags": [
+    "vanilla",
+    "natural",
+    "spa",
+    "relaxation",
+    "floral"
+  ],
+  "images": [
+    "https://serene-bathworks.com/images/bath-bombs-vanilla.jpg"
+  ],
+  "description": "Immerse yourself in the soothing experience of our handcrafted vanilla bath bomb. Scent notes: Sweet, warm, comforting. (60g)",
+  "whatsappSku": "3014",
+  "stock": 10,
+  "active": true
+}

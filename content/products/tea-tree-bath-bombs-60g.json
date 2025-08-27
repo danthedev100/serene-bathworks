@@ -1,0 +1,27 @@
+{
+  "id": "3017",
+  "name": "Tea Tree Bath Bomb",
+  "slug": "tea-tree-bath-bombs-60g",
+  "priceZAR": 0,
+  "category": "bath-bomb",
+  "size": "60g",
+  "scentNotes": [
+    "Medicinal",
+    "earthy",
+    "crisp"
+  ],
+  "tags": [
+    "tea tree",
+    "natural",
+    "spa",
+    "relaxation",
+    "refreshing"
+  ],
+  "images": [
+    "https://serene-bathworks.com/images/bath-bombs-tea-tree.jpg"
+  ],
+  "description": "Immerse yourself in the soothing experience of our handcrafted tea tree bath bomb. Scent notes: Medicinal, earthy, crisp. (60g)",
+  "whatsappSku": "3017",
+  "stock": 10,
+  "active": true
+}

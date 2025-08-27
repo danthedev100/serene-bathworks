@@ -1,0 +1,27 @@
+{
+  "id": "3005",
+  "name": "Lavender Bath Salt",
+  "slug": "lavender-bath-salts-500g",
+  "priceZAR": 0,
+  "category": "bath-bomb",
+  "size": "500g",
+  "scentNotes": [
+    "Calming",
+    "floral",
+    "clean"
+  ],
+  "tags": [
+    "lavender",
+    "natural",
+    "spa",
+    "relaxation",
+    "floral"
+  ],
+  "images": [
+    "https://serene-bathworks.com/images/bath-salts-lavender.jpg"
+  ],
+  "description": "Immerse yourself in the soothing experience of our handcrafted lavender bath salt. Scent notes: Calming, floral, clean. (500g)",
+  "whatsappSku": "3005",
+  "stock": 10,
+  "active": true
+}

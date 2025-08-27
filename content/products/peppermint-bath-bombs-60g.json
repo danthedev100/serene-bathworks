@@ -1,0 +1,27 @@
+{
+  "id": "3015",
+  "name": "Peppermint Bath Bomb",
+  "slug": "peppermint-bath-bombs-60g",
+  "priceZAR": 0,
+  "category": "bath-bomb",
+  "size": "60g",
+  "scentNotes": [
+    "Cool",
+    "minty",
+    "refreshing"
+  ],
+  "tags": [
+    "peppermint",
+    "natural",
+    "spa",
+    "relaxation",
+    "refreshing"
+  ],
+  "images": [
+    "https://serene-bathworks.com/images/bath-bombs-peppermint.jpg"
+  ],
+  "description": "Immerse yourself in the soothing experience of our handcrafted peppermint bath bomb. Scent notes: Cool, minty, refreshing. (60g)",
+  "whatsappSku": "3015",
+  "stock": 10,
+  "active": true
+}

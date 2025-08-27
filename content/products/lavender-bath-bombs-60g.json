@@ -1,0 +1,27 @@
+{
+  "id": "3016",
+  "name": "Lavender Bath Bomb",
+  "slug": "lavender-bath-bombs-60g",
+  "priceZAR": 0,
+  "category": "bath-bomb",
+  "size": "60g",
+  "scentNotes": [
+    "Calming",
+    "floral",
+    "clean"
+  ],
+  "tags": [
+    "lavender",
+    "natural",
+    "spa",
+    "relaxation",
+    "floral"
+  ],
+  "images": [
+    "https://serene-bathworks.com/images/bath-bombs-lavender.jpg"
+  ],
+  "description": "Immerse yourself in the soothing experience of our handcrafted lavender bath bomb. Scent notes: Calming, floral, clean. (60g)",
+  "whatsappSku": "3016",
+  "stock": 10,
+  "active": true
+}

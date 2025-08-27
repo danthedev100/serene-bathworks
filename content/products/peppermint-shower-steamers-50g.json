@@ -1,0 +1,27 @@
+{
+  "id": "3020",
+  "name": "Peppermint Shower Steamer",
+  "slug": "peppermint-shower-steamers-50g",
+  "priceZAR": 0,
+  "category": "bath-bomb",
+  "size": "50g",
+  "scentNotes": [
+    "Cool",
+    "minty",
+    "refreshing"
+  ],
+  "tags": [
+    "peppermint",
+    "natural",
+    "spa",
+    "relaxation",
+    "refreshing"
+  ],
+  "images": [
+    "https://serene-bathworks.com/images/shower-steamers-peppermint.jpg"
+  ],
+  "description": "Immerse yourself in the soothing experience of our handcrafted peppermint shower steamer. Scent notes: Cool, minty, refreshing. (50g)",
+  "whatsappSku": "3020",
+  "stock": 10,
+  "active": true
+}

@@ -1,0 +1,27 @@
+{
+  "id": "3012",
+  "name": "Lemon Bath Bomb",
+  "slug": "lemon-bath-bombs-60g",
+  "priceZAR": 0,
+  "category": "bath-bomb",
+  "size": "60g",
+  "scentNotes": [
+    "Citrusy",
+    "bright",
+    "zesty"
+  ],
+  "tags": [
+    "lemon",
+    "natural",
+    "spa",
+    "relaxation",
+    "citrus"
+  ],
+  "images": [
+    "https://serene-bathworks.com/images/bath-bombs-lemon.jpg"
+  ],
+  "description": "Immerse yourself in the soothing experience of our handcrafted lemon bath bomb. Scent notes: Citrusy, bright, zesty. (60g)",
+  "whatsappSku": "3012",
+  "stock": 10,
+  "active": true
+}

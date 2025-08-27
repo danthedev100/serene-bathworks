@@ -1,0 +1,27 @@
+{
+  "id": "3010",
+  "name": "Lemongrass Bath Salt",
+  "slug": "lemongrass-bath-salts-100g",
+  "priceZAR": 0,
+  "category": "bath-bomb",
+  "size": "100g",
+  "scentNotes": [
+    "Crisp",
+    "lemony",
+    "earthy"
+  ],
+  "tags": [
+    "lemongrass",
+    "natural",
+    "spa",
+    "relaxation",
+    "citrus"
+  ],
+  "images": [
+    "https://serene-bathworks.com/images/bath-salts-lemongrass.jpg"
+  ],
+  "description": "Immerse yourself in the soothing experience of our handcrafted lemongrass bath salt. Scent notes: Crisp, lemony, earthy. (100g)",
+  "whatsappSku": "3010",
+  "stock": 10,
+  "active": true
+}

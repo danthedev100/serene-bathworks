@@ -1,0 +1,27 @@
+{
+  "id": "3008",
+  "name": "Lemon Bath Salt",
+  "slug": "lemon-bath-salts-100g",
+  "priceZAR": 0,
+  "category": "bath-bomb",
+  "size": "100g",
+  "scentNotes": [
+    "Citrusy",
+    "bright",
+    "zesty"
+  ],
+  "tags": [
+    "lemon",
+    "natural",
+    "spa",
+    "relaxation",
+    "citrus"
+  ],
+  "images": [
+    "https://serene-bathworks.com/images/bath-salts-lemon.jpg"
+  ],
+  "description": "Immerse yourself in the soothing experience of our handcrafted lemon bath salt. Scent notes: Citrusy, bright, zesty. (100g)",
+  "whatsappSku": "3008",
+  "stock": 10,
+  "active": true
+}

@@ -1,0 +1,27 @@
+{
+  "id": "3002",
+  "name": "Rose Bath Salt",
+  "slug": "rose-bath-salts-100g",
+  "priceZAR": 0,
+  "category": "bath-bomb",
+  "size": "100g",
+  "scentNotes": [
+    "Floral",
+    "romantic",
+    "soft"
+  ],
+  "tags": [
+    "rose",
+    "natural",
+    "spa",
+    "relaxation",
+    "floral"
+  ],
+  "images": [
+    "https://serene-bathworks.com/images/bath-salts-rose.jpg"
+  ],
+  "description": "Immerse yourself in the soothing experience of our handcrafted rose bath salt. Scent notes: Floral, romantic, soft. (100g)",
+  "whatsappSku": "3002",
+  "stock": 10,
+  "active": true
+}
