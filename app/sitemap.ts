@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next';
-import { getAllProducts } from '@/lib/products';
+import { getAllProducts } from '@/lib/products.server';
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://example.com';
   const pages = ['', '/shop', '/about', '/ingredients', '/contact', '/privacy', '/terms'].map(
