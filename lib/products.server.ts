@@ -1,3 +1,4 @@
+// lib/products.server.ts
 import 'server-only';
 import fs from 'fs';
 import path from 'path';
@@ -7,22 +8,46 @@ const productsDir = path.join(process.cwd(), 'content', 'products');
 
 export function getAllProducts(): Product[] {
   const files = fs.readdirSync(productsDir).filter((f) => f.endsWith('.json'));
-  const items = files.map((file) => {
-    const raw = fs.readFileSync(path.join(productsDir, file), 'utf-8');
-    const data = JSON.parse(raw) as Product;
 
-    // Defensive normalization if CSV importer used comma strings
-    const toArr = (v: unknown) =>
-      Array.isArray(v) ? v : String(v ?? '').split(',').map((s) => s.trim()).filter(Boolean);
+  const items = files
+    .map((file) => {
+      const raw = fs.readFileSync(path.join(productsDir, file), 'utf-8');
+      const data = JSON.parse(raw) as any;
 
-    (data as any).badges = toArr((data as any).badges);
-    (data as any).scentNotes = toArr((data as any).scentNotes);
-    (data as any).tags = toArr((data as any).tags);
-    (data as any).images = toArr((data as any).images);
+      // normalize possible comma-strings → arrays
+      const toArr = (v: unknown) =>
+        Array.isArray(v)
+          ? v
+          : String(v ?? '')
+              .split(',')
+              .map((s) => s.trim())
+              .filter(Boolean);
 
-    return data;
-  });
-  return items.sort((a, b) => a.name.localeCompare(b.name));
+      const p: Product = {
+        id: String(data.id),
+        name: String(data.name),
+        slug: String(data.slug),
+        priceZAR: Number(data.priceZAR ?? 0),
+        category: data.category === 'bath-salt' ? 'bath-salt' : 'bath-bomb',
+        size: String(data.size ?? ''),
+        scentNotes: toArr(data.scentNotes),
+        tags: toArr(data.tags),
+        images: toArr(data.images),
+        description: String(data.description ?? ''),
+        whatsappSku: String(data.whatsappSku ?? data.slug),
+
+        // ✅ add these two lines here
+        stock: data.stock == null ? null : Math.max(0, Number(data.stock) | 0),
+        active: typeof data.active === 'boolean' ? data.active : true,
+      };
+
+      return p;
+    })
+    // hide inactive products by default
+    .filter((p) => p.active !== false)
+    .sort((a, b) => a.name.localeCompare(b.name));
+
+  return items;
 }
 
 export function getProductBySlug(slug: string): Product | null {

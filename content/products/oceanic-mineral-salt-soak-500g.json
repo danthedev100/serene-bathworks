@@ -5,10 +5,18 @@
   "priceZAR": 85,
   "category": "bath-salt",
   "size": "500 g",
-  "badges": ["handcrafted", "mineral-rich"],
-  "scentNotes": ["sea-salt", "eucalyptus"],
-  "tags": ["revitalising", "cleansing", "bath-salt"],
-  "images": ["/images/products/placeholder.svg"],
+  "scentNotes": [
+    "sea-salt",
+    "eucalyptus"
+  ],
+  "tags": [
+    "revitalising",
+    "cleansing",
+    "bath-salt"
+  ],
+  "images": [
+    "/images/products/placeholder.svg"
+  ],
   "description": "Mineral-rich sea salts with a crisp, oceanic scent to refresh tired muscles.",
   "whatsappSku": "SB-SEA-500"
 }

@@ -31,11 +31,13 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
           <div className="mt-2 text-neutraldark/70">
             {formatZAR(p.priceZAR)} • {p.size}
           </div>
-          <div className="mt-3 flex flex-wrap gap-2">
-            {p.badges.map((b) => (
-              <span key={b} className="badge">{b}</span>
-            ))}
-          </div>
+
+          {p.stock != null && (
+            <div className="mt-3 text-sm text-neutraldark/70">
+              {p.stock === 0 ? 'Out of stock' : `In stock: ${p.stock}`}
+            </div>
+          )}
+
           <p className="mt-4 text-neutraldark/80">{p.description}</p>
 
           <div className="mt-6">

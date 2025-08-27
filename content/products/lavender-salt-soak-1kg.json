@@ -5,10 +5,17 @@
   "priceZAR": 129,
   "category": "bath-salt",
   "size": "1 kg",
-  "badges": ["handcrafted", "soothing"],
-  "scentNotes": ["lavender"],
-  "tags": ["relaxing", "evening", "bath-salt"],
-  "images": ["/images/products/placeholder.svg"],
+  "scentNotes": [
+    "lavender"
+  ],
+  "tags": [
+    "relaxing",
+    "evening",
+    "bath-salt"
+  ],
+  "images": [
+    "/images/products/placeholder.svg"
+  ],
   "description": "A generous 1kg pack infused with calming lavender for multiple serene soaks.",
   "whatsappSku": "SB-LAV-1KG"
 }

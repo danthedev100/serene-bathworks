@@ -1,38 +1,56 @@
 import Link from 'next/link';
-import { Card, CardBody } from '../ui/Card';
 import type { Product } from '@/lib/product-types';
+import { formatZAR } from '@/lib/format';
 import { getWhatsAppLink } from '@/lib/whatsapp';
-export default function ProductCard({ product }: { product: Product }) {
-  const img = product.images[0] || '/images/products/placeholder.svg';
+
+type Props = { product: Product };
+
+export default function ProductCard({ product }: Props) {
+  const isOOS = typeof product.stock === 'number' && product.stock === 0;
+  const img = product.images?.[0] || '/images/products/placeholder.svg';
+
   return (
-    <Card className="h-full">
-      <img src={img} alt={product.name} className="w-full h-56 object-cover rounded-t-2xl" />
-      <CardBody>
-        <div className="flex items-start justify-between gap-3">
-          <div>
-            <h3 className="font-semibold">{product.name}</h3>
-            <div className="text-neutraldark/70 text-sm">R{product.priceZAR}</div>
+    <div className="card relative overflow-hidden">
+      {isOOS && (
+        <div className="absolute left-3 top-3 rounded-full bg-red-600/90 text-white text-xs px-2 py-1">
+          Out of stock
+        </div>
+      )}
+
+      <Link href={`/shop/${product.slug}`} className="block">
+        <img src={img} alt={product.name} className="w-full h-auto" />
+      </Link>
+
+      <div className="card-body">
+        <Link href={`/shop/${product.slug}`} className="block hover:underline">
+          <h3 className="text-lg font-medium">{product.name}</h3>
+        </Link>
+
+        <div className="mt-1 text-neutraldark/70 text-sm">
+          {formatZAR(product.priceZAR)} • {product.size}
+        </div>
+
+        {product.scentNotes?.length ? (
+          <div className="mt-2 text-xs text-neutraldark/60">
+            {product.scentNotes.join(', ')}
           </div>
+        ) : null}
+
+        <div className="mt-4">
+          {isOOS ? (
+            <div className="text-sm text-red-700/80">Unavailable</div>
+          ) : (
+            <a
+              href={getWhatsAppLink(product, 1)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary"
+            >
+              Order on WhatsApp
+            </a>
+          )}
         </div>
-        <div className="mt-2 mb-3">
-          {product.badges.map((b) => (
-            <span key={b} className="badge">
-              {b}
-            </span>
-          ))}
-        </div>
-        <div className="flex gap-2">
-          <Link
-            href={`/shop/${product.slug}`}
-            className="inline-flex items-center justify-center rounded-2xl px-4 py-2 border border-neutraldark/15 hover:bg-neutraldark/5 text-sm"
-          >
-            Details
-          </Link>
-          <a href={getWhatsAppLink(product, 1)} target="_blank" className="btn-primary text-sm">
-            Order on WhatsApp
-          </a>
-        </div>
-      </CardBody>
-    </Card>
+      </div>
+    </div>
   );
 }
