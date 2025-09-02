@@ -2,6 +2,7 @@
 'use client'
 import { useCart } from '@/lib/cart'
 import { Button } from '@/components/ui/button'
+import { toast } from 'sonner'
 
 export default function AddToCartButton({ variant, product, qty }:{ variant:any; product:any; qty:number }) {
   const add = useCart(s => s.add)
@@ -17,6 +18,7 @@ export default function AddToCartButton({ variant, product, qty }:{ variant:any;
         size: variant.size,
         scent: variant.scent
       })
+      toast.success('Added to cart', { description: `${product.name} — ${variant.size} / ${variant.scent}` })
     }}>
       Add to cart — R {(variant.priceCents*qty/100).toFixed(2)}
     </Button>
